@@ -1,6 +1,8 @@
 # demo-Table
 
-sap.m.Table public demo app
+This is a sap.m.Table dialog demo app.
+
+Facilitator: @MerveGuel
 
 Attention : This is a training/testing repository.
 
