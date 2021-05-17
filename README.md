@@ -1,6 +1,6 @@
 # demo-Table
 
-This is a sap.m.Table dialog demo app.
+This is a **sap.m.Table** dialog demo app.
 
 Facilitator: @MerveGuel
 
