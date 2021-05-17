@@ -2,8 +2,9 @@ sap.ui.define([
 		'./Formatter',
 		'sap/ui/core/mvc/Controller',
 		'sap/ui/model/json/JSONModel',
-		'sap/m/library'
-	], function(Formatter, Controller, JSONModel, mobileLibrary) {
+		'sap/m/library',
+		'sap/m/MessageToast'
+	], function(Formatter, Controller, JSONModel, mobileLibrary, MessageToast) {
 	"use strict";
 
 	var PopinLayout = mobileLibrary.PopinLayout;
@@ -12,6 +13,7 @@ sap.ui.define([
 
 		onInit: function () {
 			// set explored app's demo model on this sample
+			MessageToast.show("This is a change for Ontime Feature #201");
 			var oModel = new JSONModel(sap.ui.require.toUrl("sap/ui/demo/mock/products.json"));
 			this.getView().setModel(oModel);
 		},
