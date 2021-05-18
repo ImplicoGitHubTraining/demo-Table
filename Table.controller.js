@@ -13,6 +13,7 @@ sap.ui.define([
 
 		onInit: function () {
 			// set explored app's demo model on this sample
+			MessageToast.show("This is a change for Pull Request");
 			MessageToast.show("This is a change for Ontime Feature #201 experimental");
 			MessageToast.show("This is a change for Ontime Issue #101");
 			var oModel = new JSONModel(sap.ui.require.toUrl("sap/ui/demo/mock/products.json"));
